@@ -83,6 +83,6 @@ ggplot(sample_output,aes(x=as.factor(sample_length),y=slope))+geom_hline(yinterc
 #histogram effect size
 hist(sample_output$log_ratio)
 hist(sample_output$slope)
-hist(SR)
+hist(SRtime)
 
 #END  
